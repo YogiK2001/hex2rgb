@@ -14,16 +14,19 @@
     </div>
     <div class="main">
       <div class="input-div">
-        <input id="hex-input" type="text" value="FF" />
-        <button id="hextorgb" type="submit">ENTER</button>
+        <label for="hex-input">Enter Hex Code</label>
+        <input id="hex-input" type="text" placeholder="#000000" />
+        <button id="pressBtn">ENTER</button>
       </div>
 
       <div class="display-div">
-        <h5 class="values" id="val-1">Value1</h5>
-        <h5 class="values" id="val-2">Value2</h5>
-        <h5 class="values" id="val-3">Value3</h5>
+        <h5 class="values">RGB(</h5>
+        <h5 class="values" id="val-1">00</h5>
+        <h5 class="values" id="val-2">00</h5>
+        <h5 class="values" id="val-3">00</h5>
+        <h5 class="values">)</h5>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
-  <script src="main.js"></script>
 </html>
